@@ -1,0 +1,15 @@
+app:
+  name: schmidtjonathan1-poi-map-app
+  namespace: schmidtjonathan1
+  cluster: .apps.rosa-pzz6v.9nln.p1.openshiftapps.com
+
+git:
+  branch: main
+  repo: https://github.com/rhdh23-demo/schmidtjonathan1-frontend
+  org: rhdh23-demo
+  name: schmidtjonathan1-frontend
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: schmidtjonathan1/poi-map-app
+  tag: latest
